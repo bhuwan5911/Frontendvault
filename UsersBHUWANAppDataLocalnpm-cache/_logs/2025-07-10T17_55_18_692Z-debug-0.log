@@ -1,0 +1,77 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\BHUWAN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.16.0
+3 silly config load:file:C:\Users\BHUWAN\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\BHUWAN\OneDrive\Desktop\FrontendShowcase\.npmrc
+5 silly config load:file:C:\Users\BHUWAN\.npmrc
+6 silly config load:file:C:\Users\BHUWAN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install cross-env
+8 verbose argv "install" "cross-env" "--save-dev"
+9 verbose logfile logs-max:10 dir:C:\Users\BHUWAN\OneDrive\Desktop\FrontendShowcase\UsersBHUWANAppDataLocalnpm-cache\_logs\2025-07-10T17_55_18_692Z-
+10 verbose logfile C:\Users\BHUWAN\OneDrive\Desktop\FrontendShowcase\UsersBHUWANAppDataLocalnpm-cache\_logs\2025-07-10T17_55_18_692Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest cross-env@*
+15 silly packumentCache full:https://registry.npmjs.org/cross-env cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/cross-env 245ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/cross-env set size:undefined disposed:false
+18 silly placeDep ROOT cross-env@7.0.3 OK for:  want: *
+19 silly fetch manifest cross-spawn@^7.0.1
+20 silly packumentCache full:https://registry.npmjs.org/cross-spawn cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/cross-spawn 65ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/cross-spawn set size:undefined disposed:false
+23 silly placeDep ROOT cross-spawn@7.0.6 OK for: cross-env@7.0.3 want: ^7.0.1
+24 silly fetch manifest which@^2.0.1
+25 silly packumentCache full:https://registry.npmjs.org/which cache-miss
+26 silly fetch manifest path-key@^3.1.0
+27 silly packumentCache full:https://registry.npmjs.org/path-key cache-miss
+28 silly fetch manifest shebang-command@^2.0.0
+29 silly packumentCache full:https://registry.npmjs.org/shebang-command cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/which 70ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/which set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/path-key 180ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/path-key set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/shebang-command 195ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/shebang-command set size:undefined disposed:false
+36 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.6 want: ^3.1.0
+37 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.6 want: ^2.0.0
+38 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.6 want: ^2.0.1
+39 silly fetch manifest shebang-regex@^3.0.0
+40 silly packumentCache full:https://registry.npmjs.org/shebang-regex cache-miss
+41 silly fetch manifest isexe@^2.0.0
+42 silly packumentCache full:https://registry.npmjs.org/isexe cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/shebang-regex 61ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/shebang-regex set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/isexe 62ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/isexe set size:undefined disposed:false
+47 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+48 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+49 silly reify moves {}
+50 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz. Extracting by manifest.
+51 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+52 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+53 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz. Extracting by manifest.
+54 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz. Extracting by manifest.
+55 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz. Extracting by manifest.
+56 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz. Extracting by manifest.
+57 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 98ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 99ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 101ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 175ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 184ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 198ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz 201ms (cache miss)
+64 silly ADD node_modules/isexe
+65 silly ADD node_modules/shebang-regex
+66 silly ADD node_modules/which
+67 silly ADD node_modules/shebang-command
+68 silly ADD node_modules/path-key
+69 silly ADD node_modules/cross-spawn
+70 silly ADD node_modules/cross-env
+71 verbose cwd C:\Users\BHUWAN\OneDrive\Desktop\FrontendShowcase
+72 verbose os Windows_NT 10.0.26120
+73 verbose node v22.16.0
+74 verbose npm  v10.9.0
+75 verbose exit 0
+76 info ok
